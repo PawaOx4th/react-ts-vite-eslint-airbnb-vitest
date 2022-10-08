@@ -5,6 +5,12 @@ function App() {
 
   return (
     <div className='App'>
+      <div>
+        <p className='bg-cold-blue'>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores
+          dicta sit aliquid.
+        </p>
+      </div>
       <label htmlFor='input' aria-label='input'>
         <input
           id='input'
