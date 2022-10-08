@@ -5,11 +5,14 @@ function App() {
 
   return (
     <div className='App'>
-      <input
-        type='text'
-        onChange={(e) => setCount(+e.target.value)}
-        value={count}
-      />
+      <label htmlFor='input' aria-label='input'>
+        <input
+          id='input'
+          type='text'
+          onChange={(e) => setCount(+e.target.value)}
+          value={count}
+        />
+      </label>
     </div>
   );
 }
